@@ -14,12 +14,12 @@
 
 /* Start Main Rules */
 body {  
-  
+  height: 2000px
 }
 /* End Main Rules */
 
 
-/*//////////////////////////////////////////////////////////////////*/
+
 
 
 /* Start My Frame Work */
@@ -30,31 +30,60 @@ body {
 
 /*//////////////////////////////////////////////////////////////////*/
 
-/* Start Upper Bar */
+
+/* Start header */
+header {
+    background-image: url(../images/slider.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 800px;
+
+}
 
 
-
-/* End Upper Bar */
-
+header .heading {text-align: center; position: relative; top: 400px;}
 
 
-
-/*///////////////////////////////////////*/
-
-
-/* Start NavBar Links  */
+header .heading h1 {text-transform: uppercase; font-size: 3.5rem; font-weight: 500; color: #fff}
 
 
+header .heading button {    
+    color: #fff;
+    background-color: inherit;
+    border: 1px solid;
+    padding: 5px 25px;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
 
-/* End NavBar Links  */
+
+header nav {position: relative; top: 600px; background-color: #252e30; color: #fff}
 
 
-/*//////////////////////////////////////////////////////////////////*/
+header nav .logo {    
+    text-transform: uppercase;
+    line-height: 57px;
+    height: 100%;
+    font-size: 20px;
+    
+}
 
-/* Start Slider */
+
+header nav .logo h2 {margin-bottom: 0}
 
 
-/* End Slider */
+header nav .logo span {color: #2db668}
+
+
+header nav .links {text-align: right; text-transform: capitalize; line-height: 57px;}
+
+
+header nav .links ul {list-style: none; display: inline-block; margin-bottom: 0;}
+
+
+header nav .links ul li {display: inline; margin-left: 30px;}
+/* End Header */
 
 
 /*//////////////////////////////////////////////////////////////////*/
